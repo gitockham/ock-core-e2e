@@ -9,9 +9,9 @@
   "nethash": "27acac9ce53a648f05ba43cdee17454ebb891f205a98196ad6a0ed761abc8e48",
   "wif": 170,
   "client": {
-    "token": "DARK",
-    "symbol": "DѦ",
-    "explorer": "https://dexplorer.ark.io"
+    "token": "DOCK",
+    "symbol": "DO",
+    "explorer": "https://dexplorer.ockham.consulting"
   },
   "constants": [{
     "height": 1,
@@ -23,7 +23,7 @@
       "maxTransactions": 50,
       "maxPayload": 2097152
     },
-    "epoch": "2017-03-21T13:00:00.000Z",
+    "epoch": "2019-03-04T13:00:00.000Z",
     "fees": {
       "dynamic": false,
       "dynamicFees": {

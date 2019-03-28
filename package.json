@@ -1,9 +1,10 @@
 {
-  "name": "e2e-testing",
-  "description": "e2e testing for ARK Core",
+  "name": "ock-e2e-testing",
+  "description": "e2e testing for OCKHAM Core",
   "version": "0.1.0",
   "contributors": [
-    "Erwann Gentric <erw0nn@gmail.com>"
+    "Erwann Gentric <erw0nn@gmail.com>",
+    "Luc Talarico <ceo@ockham.consulting>"
   ],
   "license": "MIT",
   "main": "lib/index.js",

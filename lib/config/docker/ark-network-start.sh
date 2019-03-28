@@ -1,3 +1,3 @@
-echo "Starting ark --network-start" >> output.log
-ARK_LOG_FILE=ark.log packages/core/bin/ark start --config packages/core/lib/config/e2enet --network e2enet --network-start >> output.log 2> errors.log
-echo "Started ark --network-start" >> output.log
+echo "Starting ock --network-start" >> output.log
+OCK_LOG_FILE=ock.log packages/core/bin/ock start --config packages/core/lib/config/e2enet --network e2enet --network-start >> output.log 2> errors.log
+echo "Started ock --network-start" >> output.log

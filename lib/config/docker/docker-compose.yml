@@ -7,21 +7,21 @@ services:
       - 'postgres:/var/lib/postgresql/data'
     environment:
      POSTGRES_PASSWORD: password
-     POSTGRES_DB: ark_testnet
-     POSTGRES_USER: ark
+     POSTGRES_DB: ock_testnet
+     POSTGRES_USER: ock
     networks:
       backend:
         aliases:
           - postgres
 
-  ark-core:
+  ock-core:
     build: .
-    image: ark-core
+    image: ock-core
     ports:
      - "{{hostP2pPort}}:4000"
      - "{{hostApiPort}}:4003"
     volumes:
-     - ark-core:/ark-core
+     - ock-core:/ock-core
     tty: true
     privileged: true
     depends_on:
@@ -41,7 +41,7 @@ services:
 
 volumes:
   postgres:
-  ark-core:
+  ock-core:
     driver_opts:
       type: none
       device: $PWD/../../

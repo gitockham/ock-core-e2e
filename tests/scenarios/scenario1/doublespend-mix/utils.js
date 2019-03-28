@@ -274,20 +274,20 @@ const walletsMix = {
   }
 }
 
-const arktoshi = 10 ** 8
-const transferAmount = 10 * arktoshi
+const ocktoshi = 10 ** 8
+const transferAmount = 10 * ocktoshi
 const amountNeeded = {
-  transfer: transferAmount + 0.1 * arktoshi,
-  vote: 1 * arktoshi,
-  secondSignRegistration: 5 * arktoshi,
-  delegateRegistration: 25 * arktoshi
+  transfer: transferAmount + 0.1 * ocktoshi,
+  vote: 1 * ocktoshi,
+  secondSignRegistration: 5 * ocktoshi,
+  delegateRegistration: 25 * ocktoshi
 }
 
 const fees = {
-  transfer: 0.1 * arktoshi,
-  vote: 1 * arktoshi,
-  secondSignRegistration: 5 * arktoshi,
-  delegateRegistration: 25 * arktoshi
+  transfer: 0.1 * ocktoshi,
+  vote: 1 * ocktoshi,
+  secondSignRegistration: 5 * ocktoshi,
+  delegateRegistration: 25 * ocktoshi
 }
 
 module.exports = {

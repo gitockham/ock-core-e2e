@@ -1,10 +1,10 @@
-# Ark Core End-to-end Testing : technical details
+# OCKHAM Core End-to-end Testing : technical details
 
 ## Introduction
 
-Ark Core code is well-covered by unit tests, which is good to automatically identify bugs introduced by new code or refactoring.
+OCKHAM Core code is well-covered by unit tests, which is good to automatically identify bugs introduced by new code or refactoring.
 
-But unit tests are limited to "simple" test cases. If we want to test how the Ark Core network behaves in the real-world, we need integration / end-to-end testing. This can be manual (devnet) or/and automated.
+But unit tests are limited to "simple" test cases. If we want to test how the OCKHAM Core network behaves in the real-world, we need integration / end-to-end testing. This can be manual (devnet) or/and automated.
 
 This project enables writing and running end-to-end tests by providing a simple framework. We will explain here how it all works.
 
@@ -26,7 +26,7 @@ Note : this architecture uses docker swarm feature. In order to use it, we have 
 
 ### NodeJS app
 
-The NodeJS app takes care of : 
+The NodeJS app takes care of :
 
  - Generating and launching a network based on a user-defined configuration
  - Running a scenario (tests and actions) on the network

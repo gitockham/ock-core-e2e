@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd /ark-core
+cd /ock-core
 rm -rf package-lock.json > /dev/null 2>&1
 rm -rf packages/core/package-lock.json 2>&1
 npm --quiet install lerna -g && npm --quiet install -g nodemon

@@ -17,7 +17,7 @@ module.exports = async (options) => {
     const transactions = []
     Object.keys(utils.walletsMix).forEach((firstTxType) => {
       const secondTxsTypes = utils.walletsMix[firstTxType]
-      
+
       Object.keys(secondTxsTypes).forEach(secondTxType => {
         const wallets = secondTxsTypes[secondTxType]
         const transferAmount = _balanceNeededFromTxMix(firstTxType, secondTxType)
@@ -45,7 +45,7 @@ module.exports = async (options) => {
     await testUtils.POST('transactions', { transactions })
 
     function _balanceNeededFromTxMix(txType1, txType2) {
-      // we want to have 1 arkstoshi less than the amount needed for the 2 transactions
+      // we want to have 1 ockstoshi less than the amount needed for the 2 transactions
       return utils.amountNeeded[txType1] + utils.amountNeeded[txType2] - 1
     }
 }

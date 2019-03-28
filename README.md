@@ -1,15 +1,15 @@
-# Ark Core End-to-end Testing
+# OCKHAM Core End-to-end Testing
 
 <p align="center">
     <img src="./img/core-e2e-banner.png" />
 </p>
 
-[![Build Status](https://badgen.now.sh/circleci/github/ArkEcosystem/core-e2e)](https://circleci.com/gh/ArkEcosystem/core-e2e)
+[![Build Status](https://badgen.now.sh/circleci/github/gitockham/ock-core-e2e)](https://circleci.com/gh/gitockham/ock-core-e2e)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](./LICENSE)
 
 ## Introduction
 
-This project enables writing and running end-to-end tests on Ark core (v2).
+This project enables writing and running end-to-end tests on OCKHAM core (v2).
 
 ## Install and run
 
